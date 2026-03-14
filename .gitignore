@@ -1,0 +1,13 @@
+*-backups/
+*-cache
+*.bin
+*.kicad_prl
+*.gbr*
+*.rpt
+/BOM/
+*.bak
+*.gbr
+*.zip
+*.lck
+~*
+/OutputJob/

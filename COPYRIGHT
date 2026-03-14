@@ -1,0 +1,11 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Osprey-RF-Input-FMC
+Source: https://github.com/osprey-dcs/rf-input-fmc
+
+Files: *
+Copyright: 2025 Osprey DCS LLC
+License: CERN-OHL-S-2.0+
+
+Files: libs/3D/*
+Copyright: CADENAS
+License: License CC BY-ND 4.0

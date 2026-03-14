@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b8dd0f5f-e652-42b2-89ac-f7909c9d8ff3")
+	(paper "USLetter")
+	(title_block
+		(title "FMC Template")
+		(date "2026-01-26")
+		(rev "1.0")
+		(company "SPDX-FileCopyrightText: 2025 Osprey DCS")
+		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
+	)
+	(lib_symbols)
+)

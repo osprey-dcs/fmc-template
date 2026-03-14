@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "rf-input-fmc")(type "KiCad")(uri "${KIPRJMOD}/libs/Symbol/rf-input-fmc.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1719e569-47c8-4fa0-8523-9c9686ef0dba")
+	(paper "USLetter")
+	(title_block
+		(title "FMC Template")
+		(date "2026-01-26")
+		(rev "1.0")
+		(company "SPDX-FileCopyrightText: 2025 Osprey DCS")
+		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0+")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 165.1 142.24) (xy 176.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b8d05f7-7a93-4de4-9617-e8da18f285d2")
+	)
+	(wire
+		(pts
+			(xy 165.1 144.78) (xy 176.53 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab95c884-2f59-4dfb-8a1b-917269306073")
+	)
+	(wire
+		(pts
+			(xy 165.1 147.32) (xy 176.53 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca028e20-a466-4085-b432-25fdf72645a7")
+	)
+	(wire
+		(pts
+			(xy 165.1 139.7) (xy 176.53 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2cb9225-59a7-4f53-b51e-367459dde0a5")
+	)
+	(sheet
+		(at 176.53 43.18)
+		(size 29.21 114.3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "8aff4400-91ca-4a4b-be62-b9bc642d9108")
+		(property "Sheetname" "FMC"
+			(at 176.276 42.672 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fmc.kicad_sch"
+			(at 176.53 158.0646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EEPROM_GA0" output
+			(at 176.53 139.7 180)
+			(uuid "0721301e-6a01-4c90-9664-bd4e3892ec13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EEPROM_GA1" output
+			(at 176.53 142.24 180)
+			(uuid "7f77ad13-40b9-41f0-83d9-0ea6d7ad1779")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EEPROM_SCL" output
+			(at 176.53 144.78 180)
+			(uuid "240a04cf-9553-4d70-a5d5-a5e3cf06aa7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EEPROM_SDA" bidirectional
+			(at 176.53 147.32 180)
+			(uuid "19805508-5da9-4c63-a25a-f039cba05b28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 135.89)
+		(size 38.1 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "b67143af-be65-48ce-8e48-a6da90939d69")
+		(property "Sheetname" "EEPROM"
+			(at 127 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eeprom.kicad_sch"
+			(at 127 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GA0" input
+			(at 165.1 139.7 0)
+			(uuid "13ca4ae0-f94a-44f1-ad58-d4a50e433d33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GA1" input
+			(at 165.1 142.24 0)
+			(uuid "5122e5f3-bc25-4f80-867f-cdab6900f0e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 165.1 144.78 0)
+			(uuid "6e447690-2939-476a-b554-72b3c18cd534")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 165.1 147.32 0)
+			(uuid "dad71b93-fada-4208-a2b0-6fcf73b56c53")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "rf-input-fmc"
+				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
