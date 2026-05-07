@@ -1101,7 +1101,7 @@
 		)
 		(uuid "ffdb8fe1-1f4c-4945-86a2-2bcf6979ae2e")
 	)
-	(global_label "P1_3P3VAUX"
+	(global_label "3P3VAUX"
 		(shape input)
 		(at 130.81 81.28 180)
 		(fields_autoplaced yes)
@@ -1113,7 +1113,7 @@
 		)
 		(uuid "348b6a9c-9774-439c-b5a0-26df0110cc75")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.0509 81.28 0)
+			(at 119.4186 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1122,7 +1122,7 @@
 			)
 		)
 	)
-	(global_label "P1_3P3VAUX"
+	(global_label "3P3VAUX"
 		(shape input)
 		(at 101.6 104.14 180)
 		(fields_autoplaced yes)
@@ -1134,7 +1134,7 @@
 		)
 		(uuid "aaaba61c-02e3-4718-b880-a9f271aa8f98")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.7615 104.14 0)
+			(at 90.2086 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
