@@ -11584,6 +11584,10 @@
 		(uuid "99c1ad45-3ca2-49f0-acc9-d756cc64ccd8")
 	)
 	(no_connect
+		(at 189.23 52.07)
+		(uuid "99d0c6e2-0049-44cf-a63c-72075f16257b")
+	)
+	(no_connect
 		(at 262.89 163.83)
 		(uuid "9ccd7783-8d80-4fa2-b18f-912ceb99a4dc")
 	)
@@ -13476,6 +13480,16 @@
 			(type default)
 		)
 		(uuid "587ddd69-a276-4518-9fbe-93f3f220b1fb")
+	)
+	(wire
+		(pts
+			(xy 189.23 52.07) (xy 213.36 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f93d06-240b-4fd8-8985-e92bb20edb7f")
 	)
 	(wire
 		(pts
@@ -16537,46 +16551,6 @@
 		)
 		(uuid "ff8e7563-f3f3-4ce5-9eda-244488dcba36")
 	)
-	(label "EEPROM_GA0"
-		(at 99.06 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "04cc9d95-4037-4613-885c-04a4c37d02ed")
-	)
-	(label "EEPROM_SCL"
-		(at 99.06 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "45c783d9-2dc8-4b38-85aa-bb4e654620d0")
-	)
-	(label "EEPROM_GA1"
-		(at 167.64 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7127b358-6a0f-43ca-9adc-c7734fe559f2")
-	)
-	(label "EEPROM_SDA"
-		(at 99.06 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fe6e5b9b-4214-4178-9cb0-ac8902009966")
-	)
 	(global_label "P1_3P3VAUX"
 		(shape output)
 		(at 189.23 105.41 180)
@@ -17142,6 +17116,50 @@
 				(justify right)
 			)
 		)
+	)
+	(hierarchical_label "EEPROM_GA1"
+		(shape output)
+		(at 167.64 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21de3794-01e4-4cef-9369-7492a27d2641")
+	)
+	(hierarchical_label "EEPROM_GA0"
+		(shape output)
+		(at 99.06 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2489e7b8-37bd-43e9-b275-c62ad998fefe")
+	)
+	(hierarchical_label "EEPROM_SDA"
+		(shape bidirectional)
+		(at 99.06 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d34d17de-9870-46a3-a0c7-c4ade5d3995f")
+	)
+	(hierarchical_label "EEPROM_SCL"
+		(shape output)
+		(at 99.06 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3927dcc-c5f7-420b-a258-cba9fe585552")
 	)
 	(symbol
 		(lib_id "power:GND")
