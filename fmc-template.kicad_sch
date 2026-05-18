@@ -126,7 +126,7 @@
 			)
 		)
 		(instances
-			(project "rf-input-fmc"
+			(project "fmc-template"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
 					(page "8")
 				)
@@ -208,7 +208,7 @@
 			)
 		)
 		(instances
-			(project "rf-input-fmc"
+			(project "fmc-template"
 				(path "/1719e569-47c8-4fa0-8523-9c9686ef0dba"
 					(page "7")
 				)
