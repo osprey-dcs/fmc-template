@@ -18970,7 +18970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 35.56 210.82 0)
 			(effects
 				(font
@@ -18988,7 +18988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 25V X5R 0805"
+		(property "Description" "CAP CER 22UF 35V X5R 1210"
 			(at 35.56 210.82 0)
 			(effects
 				(font
@@ -18997,7 +18997,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61E226ME44L"
+		(property "MPN" "MSASG32MSB5226MPNA01"
 			(at 35.56 210.82 0)
 			(effects
 				(font
@@ -19006,7 +19006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 35.56 210.82 0)
 			(effects
 				(font
@@ -30494,7 +30494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 35.56 236.22 0)
 			(effects
 				(font
@@ -30512,7 +30512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 25V X5R 0805"
+		(property "Description" "CAP CER 22UF 35V X5R 1210"
 			(at 35.56 236.22 0)
 			(effects
 				(font
@@ -30521,7 +30521,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61E226ME44L"
+		(property "MPN" "MSASG32MSB5226MPNA01"
 			(at 35.56 236.22 0)
 			(effects
 				(font
@@ -30530,7 +30530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 35.56 236.22 0)
 			(effects
 				(font
@@ -32218,7 +32218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 35.56 184.15 0)
 			(effects
 				(font
@@ -32236,7 +32236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "CAP CER 22UF 25V X5R 0805"
+		(property "Description" "CAP CER 22UF 35V X5R 1210"
 			(at 35.56 184.15 0)
 			(effects
 				(font
@@ -32245,7 +32245,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "GRM21BR61E226ME44L"
+		(property "MPN" "MSASG32MSB5226MPNA01"
 			(at 35.56 184.15 0)
 			(effects
 				(font
@@ -32254,7 +32254,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Murata Electronics"
+		(property "Manufacturer" "Taiyo Yuden"
 			(at 35.56 184.15 0)
 			(effects
 				(font
